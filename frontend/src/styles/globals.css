@@ -1,0 +1,487 @@
+@import "../assets/css/plugins/bootstrap.min.css";
+@import "../assets/css/plugins/slick.css";
+@import "../assets/css/plugins/magnific-popup.css";
+@import "../assets/css/plugins/animate.css";
+@import "../assets/fonts/flaticon/flaticon.css";
+@import "../assets/fonts/font-awesome.min.css";
+@import "../assets/css/style.css";
+@import "../assets/css/responsive.css";
+
+
+.progress_box {
+  padding: 22px 26px;
+}
+a {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mithra-btn-border-radius-5{
+  border-radius: 5px;
+}
+
+.mithra-flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mithra-flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-padding-100{
+  padding: 30px 30px 0px;
+}
+
+
+.login-form{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 115px 0px 115px 0px;
+  background-color: #F8F8F8;
+  background-image: url(../assets/images/login-bg.png);
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container{
+  background-color: #fff;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 4px 18px rgb(0 0 0 / 6%);
+    -khtml-box-shadow: 0 4px 18px rgba(0,0,0,6%);
+    -moz-box-shadow: 0 4px 18px rgba(0,0,0,6%);
+    -ms-box-shadow: 0 4px 18px rgba(0,0,0,6%);
+    -o-box-shadow: 0 4px 18px rgba(0,0,0,6%);
+    box-shadow: 0 4px 18px rgb(0 0 0 / 6%);
+}
+
+.login-button {
+  width: inherit;
+  font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 38px;
+    line-height: 55px;
+    -webkit-transition: all 240ms linear 0ms;
+    -khtml-transition: all 240ms linear 0ms;
+    -moz-transition: all 240ms linear 0ms;
+    -ms-transition: all 240ms linear 0ms;
+    -o-transition: all 240ms linear 0ms;
+    transition: all 240ms linear 0ms;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden!important;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #66cea9;
+    z-index: 1;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 10px 30px rgb(102 206 169 / 35%);
+    -khtml-box-shadow: 0 10px 30px rgba(102,206,169,.35);
+    -moz-box-shadow: 0 10px 30px rgba(102,206,169,.35);
+    -ms-box-shadow: 0 10px 30px rgba(102,206,169,.35);
+    -o-box-shadow: 0 10px 30px rgba(102,206,169,.35);
+    box-shadow: 0 10px 30px rgb(102 206 169 / 35%);
+}
+
+.login-input {
+  background-color: #fff;
+    border: 1px solid #f2f6ff;
+    color: #415674;
+    padding: 6px 22px;
+    line-height: normal;
+    font-size: 15px;
+    height: 51px;
+    -webkit-transition: all 200ms linear 0ms;
+    -khtml-transition: all 200ms linear 0ms;
+    -moz-transition: all 200ms linear 0ms;
+    -ms-transition: all 200ms linear 0ms;
+    -o-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+    -webkit-box-shadow: none;
+    -khtml-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.field-group{
+  position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-inner-container{
+  width: 400px;
+}
+
+.google-login{
+  display: flex;
+  flex-direction: column;
+}
+.google-login [type='button']{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  border:1px solid #bebfc1 !important;
+  border-radius: 6px !important;
+  font-size: 16px !important;
+}
+
+.mt-user-bottom{
+  width: 100%;
+  border-top: 1px solid #efefef;
+    padding: 18px 30px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 15px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -khtml-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.curriculum-card{
+ 
+    display: flex;
+    width: 100%;
+    /* padding: 0 0 26px;
+    border-bottom: 0; */
+    border-bottom: 1px solid #d9e0f1;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* border: none; */
+    padding: 25px;
+    background-color: initial;
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin-bottom: 40px; */
+    border: 2px solid #eff0f2;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.expanded .curriculum-card{
+ border: 0px;
+ margin: 0px; 
+}
+
+.curriculum-list.expanded{
+  margin-top: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    border: 2px solid #eff0f2;
+}
+
+.curriculum-card h5{
+  margin: 0px;
+}
+
+.curriculum-card .expand-icon{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+    right: 20px;
+}
+.curriculum-subtopics-list{
+  margin-bottom: 0;
+    overflow: visible;
+    height: auto;
+    list-style: none;
+}
+
+.curriculum-subtopic-even{
+  background-color: #f2f9fc;
+  padding: 0 30px;
+  display: flex;
+}
+
+.curriculum-subtopic-even .course-link{
+  display: flex;
+}
+
+.curriculum-subtopic-odd{
+  /* background-color: #f2f9fc; */
+  padding: 0 30px;
+  display: flex;
+
+}
+
+.curriculum-subtopic-odd .course-link{
+  display: flex;
+}
+
+.curriculum-subtopic-icon{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.curriculum-subtopic-text{
+  display: table-cell;
+    padding: 17px 16px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.course-summary-container{
+  display: flex;
+}
+
+.course-summary-left-pane{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  overflow: auto;
+    position: relative;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    flex: 0 0 475px;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -ms-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+}
+
+.course-summary-left-pane .curriculum-card{
+  border-radius: 0px;
+}
+
+.course-summary-main-pane{
+  /* width: calc(100% -300px) */
+  height: 100%;
+  /* overflow: auto; */
+    position: relative;
+    margin: 40px 50px;
+    flex: 1;
+}
+
+
+.course-summary-header{
+  display: flex;
+    /* position: fixed; */
+    z-index: 100;
+    right: 0;
+    left: 475px;
+    padding: 0;
+    border-bottom: 1px solid #d9e0f1;
+    background: #66cea9;
+    -webkit-transition: left .25s;
+    -moz-transition: left .25s;
+    -ms-transition: left .25s;
+    -o-transition: left .25s;
+    transition: left .25s;
+}
+
+.course-summary-header-text{
+  padding: 10px;
+}
+
+.course-summary-header-icon{
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+}
+
+.course-summary-content{
+  padding-top: 20px;
+}
+
+.course-summary-footer{
+  width: 100%;
+  /* position: fixed; */
+  border-top: 1px solid #d9e0f1;
+  padding: 10px;
+}
+
+.course-summary-footer .prev{
+  position: absolute;
+  left: 10px;
+  
+}
+
+.course-summary-footer .next{
+  position: absolute;
+  right: 10px;
+}
+
+.course-header{
+  background-color: #e5dfdf8a;
+  display: flex;
+  font-size: 25px;
+  height: 40px;
+}
+
+.course-header .collapse-icon {
+  position: absolute;
+  left:10px
+}
+
+.course-header .close-icon {
+  position: absolute;
+  right:10px;
+}
+
+.course-summary-leftpane-close{
+  height: 40px;
+  font-size: 25px;
+}
+.course-summary-leftpane-close .close-icon{
+  position: absolute;
+  right: 10px;
+}
+.curriculum-container-list{
+  width: 100%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.checkout-container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+/* input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+} */
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+
+  .login-inner-container{
+    width: 100%;
+  }
+
+}
+
+.profile-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart{
+  color: #4b83fb !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px !important;
+  margin: 0 5px;
+}
+
